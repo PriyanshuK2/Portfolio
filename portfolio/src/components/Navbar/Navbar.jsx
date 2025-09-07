@@ -7,6 +7,6 @@ import { SiLeetcode } from "react-icons/si";
 
 export const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className='transparent pt-2px'></nav>
   )
 }

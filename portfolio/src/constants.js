@@ -7,11 +7,9 @@ import reactjsLogo from './assets/tech_logo/reactjs.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
@@ -36,6 +34,8 @@ import schoollogo from './assets/education_logo/school.png';
 
 // Project Section Logo's
 import edupointlogo from './assets/work_logo/edupoint.png';
+import movieempirelogo from './assets/work_logo/movieempire.png';
+import passoplogo from './assets/work_logo/passop.png';
 
 
 export const SkillsInfo = [
@@ -158,10 +158,29 @@ export const SkillsInfo = [
       id: 0,
       title: "Edupoint",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
+        "A full-stack Ed-Tech platform incorporating features for seamless content creation, consumption, and rating with robust user authentication and efficient media storage.",
+      image: edupointlogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      github: "https://github.com/PriyanshuK2/EduPoint",
+      webapp: "https://edu-point-seven.vercel.app/",
     },
+    {
+      id: 1,
+      title: "MovieEmpire",
+      description:
+        "A React-based movie search application that integrates the OMDb API to fetch and display detailed film information with a clean, responsive UI.",
+      image: movieempirelogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+      github: "https://github.com/PriyanshuK2/MoviEmpire/tree/main/movie-empire",
+      webapp: "https://movie-empire-six.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "PassOp",
+      description:"A React-based website that manages and organizes user passwords with a secure and intuitive interface.",
+      image: passoplogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS"],
+      github: "https://github.com/PriyanshuK2/PassOp",
+      webapp: "https://passop-gamma.vercel.app/",
+    }
   ];  
